@@ -1,0 +1,108 @@
+showMyDialog(context,
+                                  title: 'أختر صورة',
+                                  message:
+                                  'يرجى إختيار صورة من البوم الصور ',
+                                  actions: [
+                                    Row(
+                                      children: [
+                                        Expanded(
+                                          child: InkWell(
+                                            onTap: () async {
+                                              Get.back();
+                                              String? imgPath =
+                                              await _pickUpImage();
+                                              if (imgPath != null) {
+                                                viewModel.imagePath = imgPath;
+
+                                                setState(() {
+                                                  _image = File(imgPath);
+                                                });
+                                              }
+                                            },
+                                            child: Container(
+                                              child: Padding(
+                                                padding:
+                                                const EdgeInsets.symmetric(
+                                                    vertical: 8.0,
+                                                    horizontal: 10),
+                                                child: Row(
+                                                  crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                                  mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                                  children: [
+                                                    Icon(
+                                                      Icons.photo,
+                                                      color: Colors.white,
+                                                    ),
+                                                    Text(
+                                                      'ألبوم الصور ',
+                                                      style: TextStyle(
+                                                          color: Colors.white,
+                                                          fontWeight:
+                                                          FontWeight.w700),
+                                                    )
+                                                  ],
+                                                ),
+                                              ),
+                                              decoration: BoxDecoration(
+                                                  color: AppColors.mainOrange,
+                                                  borderRadius:
+                                                  BorderRadius.circular(6)),
+                                            ),
+                                          ),
+                                        ),
+                                        SizedBox(
+                                          width: 16,
+                                        ),
+                                        Expanded(
+                                          child: InkWell(
+                                            onTap: () async {
+                                              Get.back();
+                                              String? imgPath =
+                                              await _pickUpImage(
+                                                  imageSource:
+                                                  ImageSource.camera);
+                                              if (imgPath != null) {
+                                                viewModel.imagePath = imgPath;
+                                                setState(() {
+                                                  _image = File(imgPath);
+                                                });
+                                              }
+                                            },
+                                            child: Container(
+                                              child: Padding(
+                                                padding:
+                                                const EdgeInsets.symmetric(
+                                                    vertical: 8.0,
+                                                    horizontal: 10),
+                                                child: Row(
+                                                  crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                                  mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                                  children: [
+                                                    Icon(
+                                                      Icons.camera_alt,
+                                                      color: Colors.white,
+                                                    ),
+                                                    Text(
+                                                      'الكاميرا',
+                                                      style: TextStyle(
+                                                          color: Colors.white,
+                                                          fontWeight:
+                                                          FontWeight.w700),
+                                                    )
+                                                  ],
+                                                ),
+                                              ),
+                                              decoration: BoxDecoration(
+                                                  color: AppColors.mainOrange,
+                                                  borderRadius:
+                                                  BorderRadius.circular(6)),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    )
+                                  ]);

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>234470768413-shqlsgfr2986c8tba3lc3atd9q8n881r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.234470768413-shqlsgfr2986c8tba3lc3atd9q8n881r</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>234470768413-383krt8ha9vem145ppv9vccle8iriqui.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLvAfYhQX4hcD5QgB-bbwQdmr2S6fxFf4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>234470768413</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yallservice.ashanak</string>
+	<key>PROJECT_ID</key>
+	<string>egyptian-ads-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>egyptian-ads-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:234470768413:ios:c53ac9ad3cab067fbf2bf4</string>
+	<key>DATABASE_URL</key>
+	<string>https://egyptian-ads-app.firebaseio.com</string>
+</dict>
+</plist>

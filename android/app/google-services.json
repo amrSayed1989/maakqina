@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "234470768413",
+    "firebase_url": "https://egyptian-ads-app.firebaseio.com",
+    "project_id": "egyptian-ads-app",
+    "storage_bucket": "egyptian-ads-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234470768413:android:0e932bf740625773bf2bf4",
+        "android_client_info": {
+          "package_name": "com.zakhoi.egyptian_ads_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234470768413-5fdb9uq5qpin98s9ll2n8ud5oanc5d9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zakhoi.egyptian_ads_app",
+            "certificate_hash": "0b22e99cacdeab7d692a94c5aac06ebb80f2c191"
+          }
+        },
+        {
+          "client_id": "234470768413-986fsd79obgtbidf9o0n5tf40fjpior7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zakhoi.egyptian_ads_app",
+            "certificate_hash": "67c4b5861ff6717cbd3aeb523de84ada01a7415d"
+          }
+        },
+        {
+          "client_id": "234470768413-1kj3btirqrvr2cgdu1hs5k06n9j6u2fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgIP8zE0Oq1uKZyKOsseft45MFW4F_elI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234470768413-1kj3btirqrvr2cgdu1hs5k06n9j6u2fg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "234470768413-jqm6d8e09cm34tub50pmqtas19mrhtd5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.egyptianAdsApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
